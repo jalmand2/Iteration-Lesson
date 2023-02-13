@@ -1,8 +1,9 @@
-// let i = 0;
-// do {
-//   i += 1;
-//   console.log(i);
-// } while (i < 5);
+// Iteration
+let i = 0;
+do {
+  i += 1;
+  console.log(i);
+} while (i < 5);
 // Iteration is the repetition of an action occurring until the condition has been met 
 // Iteration is the process of repeating the same action until a condition is met 
 // for (initialization; condition; afterthought ) { statement }
@@ -12,39 +13,40 @@
 // Math.max is an example of an expression that accesses a property of some value
 // What two javascript values do not have properties? null and undefined 
 // The elements in an array are stored as array's properties 
-// const letters = ["a","b","c"];
+
+const letters = ["a","b","c"];
 
 // List all Elements
-// let text = "";
-// for (const x of letters) {
-//   text += x + "<br>";
-//   console.log(x);
-// };
+let text = "";
+for (const x of letters) {
+  text += x + "<br>";
+  console.log(x);
+};
 
-// let n = 0;
-// let x = 0;
-// while (n < 6) {
-//   n++;
-//   x += n;
-//   console.log("x = " + x + " n = " + n);
-// //expected output: 
-// // x = 1 n = 1
-// // x = 3 n = 2
-// // x = 6 n = 3
-// // x = 10 n = 4
-// // x = 15 n = 5
-// // x = 21 n = 6
-// }
+let n = 0;
+let x = 0;
+while (n < 6) {
+  n++;
+  x += n;
+  console.log("x = " + x + " n = " + n);
+//expected output: 
+// x = 1 n = 1
+// x = 3 n = 2
+// x = 6 n = 3
+// x = 10 n = 4
+// x = 15 n = 5
+// x = 21 n = 6
+}
 //The addition assignment (+=) operator:
 
 //adds the value of the right operand to a variable and assigns the result to the variable. 
 //The types of the two operands determine the behavior of the addition assignment operator. 
 //Addition or concatenation is possible.
 
-// for (let step = 0; step < 5; step++) {
-//   // Runs 5 times, with values of step 0 through 4.
-//   console.log("Walking east one step");
-// }
+for (let step = 0; step < 5; step++) {
+  // Runs 5 times, with values of step 0 through 4.
+  console.log("Walking east one step");
+}
 
 // 7 Ways to Iterate over an Array Video: https://www.bing.com/videos/search?q=iteration+javascript&&view=detail&mid=656684FDA66A00EFEE70656684FDA66A00EFEE70&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Diteration%2Bjavascript%26FORM%3DHDRSC3
 // Hi, my name is Jessica Almand and I am a certified MERN Full Stack Web Developer. Today, I will teaching you about the concept of iteration! Let's get started. 
@@ -69,10 +71,10 @@
 // There are multiple ways we can go about this: a while loop, a for in loop, a for of loop, but today we are going to learn 
 // one of the more common approaches and do a for loop. 
 
-// for loop 
-// for (let i = 0; i < arr.length; i++) {
-//   console.log(arr[i]);
-// }
+for loop 
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
 
 // let i = 0 is us defining a variable which will refer to the index of which value we want to display to the console.
 // i < arr.length is the condition for the loop, what we are saying here is that as long as the index is less than the length of the array, repeat the function. 
@@ -85,7 +87,7 @@
 // let i = 0;
 // ^ we are defining a variable which will refer to the index of which value we want to display to the console. 
 // Arrays having indexes and values makes them key:value pairs
-// while (i < arr.length) {
-//   console.log(arr[i]);
-//   i++;
-// }
+while (i < arr.length) {
+  console.log(arr[i]);
+  i++;
+}
